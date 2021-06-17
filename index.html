@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Ansh | Music App</title>
+</head>
+<body>
+    <div class="main_container">
+        <div class="box">
+                <h2 class="py-2" id="title">Anniversary</h2>
+                <h3 class="py-2"id="artist">COP Studio</h3>
+                <div class="img py-2">
+                    <img src="imgs/one.jpg" alt="one">
+                </div>
+                <audio src="music/one.mp3"></audio>
+
+                <!-- progress barr -->
+                <div class="progressbar_container" id="progress_container">
+                    <div class="progress_duration_meter">
+                        <div id="current_time">0.00</div>
+                        <div id="duration">1:00</div>
+                    </div>
+                    <div class="progress_div" id="progress_div">
+                        <div class="progress" id="progress"></div>
+                    </div>
+                </div>
+
+                <!-- controls -->
+                <div class="music_controls py-2">
+                    <img src="imgs/icons/backward.png" alt="backward" id="prev">
+                    <img src="imgs/icons/play.png" alt="play" id="play">
+                    <img src="imgs/icons/pause.png" alt="play" id="pause">
+                    <img src="imgs/icons/forward.png" alt="forward" id="next">
+                </div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
